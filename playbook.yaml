@@ -1,7 +1,6 @@
 ---
   - name: Teraform Script Execution
     hosts: localhost
-    become: true
     tasks:
       - name: Execute the script
         command: ls -la
