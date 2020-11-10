@@ -4,4 +4,4 @@
     become: true
     tasks:
       - name: Execute the script
-        command: sudo terraform version 
+        command: ls -la
