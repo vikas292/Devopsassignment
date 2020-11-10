@@ -4,5 +4,5 @@
     tasks:
       - name: Execute the script
         command: /usr/local/bin/terraform init
-      - name: Terraform apply
+      - name: Terraform desktroy
         command: /usr/local/bin/terraform destroy
