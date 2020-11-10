@@ -3,4 +3,4 @@
     hosts: localhost
     tasks:
       - name: Execute the script
-        command: ls -la
+        command: terraform apply --auto-approve
