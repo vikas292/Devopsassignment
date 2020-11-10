@@ -1,8 +1,8 @@
 variable "access_key" {
-     default = "AKIsjrfkashrfhkA"
+     default = "AccessKeyVault"
 }
 variable "secret_key" {
-     default = "jfsdfhsfdorshfsr"
+     default = "SecretKeyVault"
 }
 variable "region" {
      default = "ap-south-1"
