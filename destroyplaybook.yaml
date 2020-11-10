@@ -1,0 +1,8 @@
+---
+  - name: Teraform Script Execution
+    hosts: localhost
+    tasks:
+      - name: Execute the script
+        command: /usr/local/bin/terraform init
+      - name: Terraform apply
+        command: /usr/local/bin/terraform destroy
