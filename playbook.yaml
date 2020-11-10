@@ -4,4 +4,4 @@
     become: true
     tasks:
       - name: Execute the script
-        command:terraform version 
+        command: terraform version 
