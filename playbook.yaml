@@ -5,5 +5,5 @@
       - name: Execute the script
         command: /usr/local/bin/terraform init
       - name: Terraform apply
-        command: terraform apply --auto-approve
+        command: /usr/local/bin/terraform apply --auto-approve
 
