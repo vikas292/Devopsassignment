@@ -3,4 +3,7 @@
     hosts: localhost
     tasks:
       - name: Execute the script
+        command: terraform init
+      - name: Terraform apply
         command: terraform apply --auto-approve
+
