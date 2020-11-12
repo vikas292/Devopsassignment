@@ -134,7 +134,7 @@ resource "aws_instance" "Prod_EC2" {
               sudo apt update -y
               sudo apt install apache2 -y
               sudo systemt1 start apahe2
-              sudo bash -c 'echo Praviin gandu hai > /var/www/html/index.html'
+              sudo bash -c 'echo Hi Pankaj, I have completed my Devops Assignment and It was really a great experience.I really wish to join your team to work on these exciting projects and devlop my career in Devops> /var/www/html/index.html'
               EOF
             
 
